@@ -2,8 +2,8 @@ import React from 'react';
 
 interface Props {};
 
-const Homepage = (props: Props) => {
+const Coursepage = (props: Props) => {
     return(<div><p>hi</p></div>)
 }
 
-export default Homepage;
+export default Coursepage;

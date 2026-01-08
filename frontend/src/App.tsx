@@ -1,16 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Outlet } from 'react-router'
+import Navbar from './Components/Nav/Navbar'
+import Topbar from './Components/Topbar/Topbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <Nav/>
-      <Footer/>
-
+    <div className="m-[0px] w-[100vw] h-[100vh] flex flex-col">
+       <Topbar/>
+       <Navbar/> 
+       <Outlet />
     </div>
   )
 }
