@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="m-[0px] w-[100vw] h-[100vh] flex flex-col">
        <Topbar/>
-       <Navbar/> 
-       <Outlet />
+       <div className="flex flex-row flex-1">
+        <Navbar/> 
+        <Outlet />
+       </div>
     </div>
   )
 }
