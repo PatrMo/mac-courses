@@ -8,12 +8,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="m-[0px] w-full h-[100vh] flex flex-col">
+    <div className="m-[0px] w-full h-[100vh] flex flex-col justify-start items-center">
        <Topbar/>
-       <div className="flex flex-row flex-1">
         <Navbar/> 
-        <Outlet />
-       </div>
+        <div className="flex justify-center items-start w-full mt-[10vh]">
+          <Outlet />
+        </div>
     </div>
   )
 }
