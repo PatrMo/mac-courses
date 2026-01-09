@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="m-[0px] w-[100vw] h-[100vh] flex flex-col">
+    <div className="m-[0px] w-full h-[100vh] flex flex-col">
        <Topbar/>
        <div className="flex flex-row flex-1">
         <Navbar/> 
